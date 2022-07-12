@@ -5,7 +5,8 @@
     while (index < lenght)
     {
         array[index] = new Random().Next(1, 10);
-        Console.WriteLine(array[index]);
+        Console.Write(array[index]);
+        Console.Write(", ");
         index++;
     }
 }
