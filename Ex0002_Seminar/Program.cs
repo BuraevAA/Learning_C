@@ -10,11 +10,11 @@ if(num == 1)
     Console.Write($"{num} {a}");
 }
 
-if(num > 1 && num < 5)
+else if(num > 1 && num < 5)
 {
     Console.Write($"{num} {b}");
 }
-if(num > 5 && num < 20)
+else if(num > 5 && num < 20)
 {
     Console.Write($"{num} {c}");
 }

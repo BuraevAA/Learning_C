@@ -25,7 +25,7 @@ void FindMaxMin(int[] list)
             max = list[index]; 
             indmax = index;
         }
-        if(list[index] < min)
+        else if(list[index] < min)
         {
             min = list[index];
             indmin = index;
